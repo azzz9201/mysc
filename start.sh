@@ -1,4 +1,10 @@
 #!/bin/bash
-systemctl start xray
-sysctl enable haproxy
-sysctl enable xray
+
+Enable HAProxy
+sudo systemctl enable haproxy
+
+Start HAProxy
+sudo systemctl start haproxy
+
+Cek status HAProxy
+sudo systemctl status haproxy
