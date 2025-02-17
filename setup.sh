@@ -1,2 +1,3 @@
 #!/bin/bash
-echo "Proses Update"
+sysctl enable haproxy
+sysctl enable xray
