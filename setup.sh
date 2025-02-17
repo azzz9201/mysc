@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "Proses Update"
-apt update
+sudo systemctl enable xray
 echo "Update Selesai.."
 echo "Proses Upgrade"
-apt upgrade
+sudo systemctl enable haproxy
 echo "Upgrade Selesai.."
